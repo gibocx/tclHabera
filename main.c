@@ -40,13 +40,13 @@ int main()
     char Ordner[64];
     char FILENAME[64];
 
-    printf("TCL Habera by Gigler 2020 V0.0\n");
+    printf("TCL Habera by gibocx 2020 V0.0\n");
 
         system("dir /b /ad >> temp");
         fhTemp = fopen("temp","r");
         if(fhTemp == NULL)
         {
-            printf("Temp-Datei konnte nicht geöffnet werden!\nEnter-Taste druecken zum Beenden!");
+            printf("Temp-Datei konnte nicht geÃ¶ffnet werden!\nEnter-Taste druecken zum Beenden!");
             getchar();
         }
         else
